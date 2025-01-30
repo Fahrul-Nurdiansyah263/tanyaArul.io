@@ -110,6 +110,31 @@ button:hover {
   opacity: 0.95;
 }
 
+
+@media (max-width: 486px) and (min-width: 467px) {
+  .prompt-box{
+    width: 100%;
+    
+  }
+   
+  main{
+    width: 90%;
+    
+  }
+  }
+
+
+  @media (max-width: 466px) and (min-width: 431px) {
+  main{
+    width: 90%;
+    
+  }
+  .prompt-box{
+    width: 100%;
+  }
+   
+  }
+
 @media (max-width: 430px){
   main{
     width: 20rem;
