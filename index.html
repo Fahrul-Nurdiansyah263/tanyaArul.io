@@ -4,37 +4,33 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Baking with the Gemini API</title>
+  <title>tanyaArul.io</title>
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 </head>
 
 <body>
   <main>
-    <h1>Baking with the Gemini API</h1>
+    <script>
+        alert("Jika muncul pesan Error: [503] API nya overload coba lagi nanti || Maaf a ane make nya gratisan ");
+    </script>
+  
+
+    <h1>tanyaArul.io</h1>
     <form>
-      <div class="image-picker">
-        <label class="image-choice">
-          <input type="radio" checked name="chosen-image" value="/baked_goods_1.jpg">
-          <img src="/baked_goods_1.jpg">
-        </label>
-        <label class="image-choice">
-          <input type="radio" name="chosen-image" value="/baked_goods_2.jpg">
-          <img src="/baked_goods_2.jpg">
-        </label>
-        <label class="image-choice">
-          <input type="radio" name="chosen-image" value="/baked_goods_3.jpg">
-          <img src="/baked_goods_3.jpg">
-        </label>
-      </div>
+      <p class="disclaim">Dikarenakan menggunakan API (Application Programming Interface) gratis dari GEMINI Kesalahan bisa saja terjadi. bijak dalam menggunakan</p>
+
       <div class="prompt-box">
         <label>
-          <input name="prompt" placeholder="Enter instructions here" type="text"
-            value="Provide an example recipe for the baked goods in the image">
+          <input name="prompt" placeholder="Tanya aja a" type="text"
+           >
         </label>
-        <button type="submit">Go</button>
+        <button type="submit"><box-icon name='send'></box-icon></button>
       </div>
+      <p class="output">(Yang anda tanyakan akan muncul disini)</p>
+     
     </form>
     
-    <p class="output">(Results will appear here)</p>
+
   </main>
 
   <script type="module" src="/main.js"></script>
