@@ -4,7 +4,7 @@ import { maybeShowApiKeyBanner } from './gemini-api-banner';
 import './style.css';
 
 
-let API_KEY = 'AIzaSyAongEFpMtj2nFH-pHJZRDRF8B24NwB7Bs';
+let API_KEY = 'YOUR_API_KEY';
 
 let form = document.querySelector('form');
 let promptInput = document.querySelector('input[name="prompt"]');
